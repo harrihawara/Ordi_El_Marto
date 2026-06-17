@@ -1,0 +1,1983 @@
+<!DOCTYPE html>
+<html lang="de-AT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="OA Dr. Shady El Marto - Facharzt für Kniechirurgie, Sportverletzungen und Arthroskopie in Wien. Spezialisiert auf Kreuzband- und Meniskus-Operationen.">
+    <meta name="keywords" content="Kniechirurg Wien, Sportverletzungen, Kreuzband OP, Meniskus OP, Arthroskopie, Dr. El Marto">
+    <meta name="author" content="Dr. Shady El Marto">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://dr-elmarto.at/">
+    <link rel="alternate" hreflang="de-AT" href="https://dr-elmarto.at/">
+    <meta property="og:title" content="OA Dr. Shady El Marto | Kniechirurg & Sportarzt Wien">
+    <meta property="og:description" content="Spezialist für Kniechirurgie, Sportverletzungen und minimalinvasive Gelenkchirurgie in Wien.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dr-elmarto.at/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="OA Dr. Shady El Marto | Kniechirurg Wien">
+    <meta name="twitter:description" content="Facharzt für Kniechirurgie und Sportverletzungen in Wien.">
+
+    <title>OA Dr. Shady El Marto | Kniechirurg & Sportarzt Wien – Kreuzband & Meniskus OP</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #555555;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        :root {
+            --primary-accent: #5D7A88;
+            --light-bg: #D6DFE2;
+            --dark-heading: #23282D;
+            --body-text: #555555;
+            --white: #FFFFFF;
+            --black: #000000;
+            --gray: #F5F5F5;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+            color: var(--dark-heading);
+            line-height: 1.2;
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            font-weight: 700;
+        }
+
+        h2 {
+            font-size: clamp(2rem, 4vw, 3.5rem);
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        h4 {
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+            color: var(--body-text);
+        }
+
+        em {
+            font-style: italic;
+            font-weight: 600;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .label {
+            font-size: 0.75rem;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            font-weight: 600;
+            color: var(--primary-accent);
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .top-bar {
+            background-color: var(--white);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #E8E8E8;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 1.5rem;
+            font-size: 1.2rem;
+        }
+
+        .social-icon {
+            color: var(--primary-accent);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .social-icon:hover {
+            color: var(--dark-heading);
+        }
+
+        .logo-section {
+            text-align: center;
+            flex: 1;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--dark-heading);
+            text-decoration: none;
+        }
+
+        .right-section {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .phone-info {
+            text-align: right;
+            font-size: 0.95rem;
+        }
+
+        .phone-info a {
+            color: var(--dark-heading);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .phone-info a:hover {
+            color: var(--primary-accent);
+        }
+
+        .nav-sticky {
+            position: sticky;
+            top: 0;
+            background-color: var(--light-bg);
+            padding: 1.2rem 2rem;
+            z-index: 99;
+            border-bottom: 1px solid #D0D8DC;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0.5rem;
+            gap: 0.35rem;
+            z-index: 101;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background-color: var(--dark-heading);
+            border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(10px, 10px);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(8px, -8px);
+        }
+
+        .nav-menu {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            list-style: none;
+        }
+
+        .nav-menu a {
+            font-size: 0.85rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: var(--dark-heading);
+            font-weight: 600;
+            position: relative;
+            transition: color 0.3s ease;
+        }
+
+        .nav-menu a::before {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: var(--primary-accent);
+            transition: width 0.3s ease;
+        }
+
+        .nav-menu a:hover {
+            color: var(--primary-accent);
+        }
+
+        .nav-menu a:hover::before {
+            width: 100%;
+        }
+
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-image: linear-gradient(rgba(35,40,45,0.55), rgba(35,40,45,0.55)), url('https://www.dr-elmarto.at/.cm4all/mediadb/NEW/.wernerharrer_weninger__Nr_008__GROSS_.jpg/picture-2600');
+            background-size: cover;
+            background-position: center top;
+            background-attachment: fixed;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(35, 40, 45, 0.15);
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 900px;
+            padding: 2rem;
+        }
+
+        .hero .label {
+            text-align: center;
+            justify-content: center;
+            color: #A8C5D8;
+        }
+
+        .hero h1 {
+            color: var(--white);
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+        }
+
+        .hero-subtitle {
+            font-size: 1.3rem;
+            color: var(--white);
+            margin-bottom: 0.5rem;
+            font-weight: 300;
+        }
+
+        .hero-label-small {
+            font-size: 0.8rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: #A8C5D8;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero-cta {
+            margin-top: 3rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .btn-primary {
+            background-color: var(--black);
+            color: var(--white);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--primary-accent);
+        }
+
+        .btn-secondary {
+            border: 2px solid var(--primary-accent);
+            color: var(--primary-accent);
+            background-color: transparent;
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--primary-accent);
+            color: var(--white);
+        }
+
+        .floating-btn {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background-color: var(--primary-accent);
+            color: var(--white);
+            padding: 1rem 1.8rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            z-index: 100;
+            box-shadow: 0 8px 24px rgba(93, 122, 136, 0.3);
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+            letter-spacing: 0.05em;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .floating-btn:hover {
+            background-color: #4d6478;
+            transform: translateY(-2px);
+            box-shadow: 0 12px 32px rgba(93, 122, 136, 0.4);
+        }
+
+        .welcome {
+            background-color: var(--light-bg);
+            padding: 100px 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .welcome-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .welcome-text h2 {
+            margin-bottom: 1.5rem;
+        }
+
+        .welcome-text p {
+            margin-bottom: 2rem;
+            line-height: 1.8;
+        }
+
+        .welcome-image {
+            position: relative;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .welcome-blob {
+            display: none;
+        }
+
+        .welcome-blob-content {
+            display: none;
+        }
+
+        @keyframes blob-animation {
+            0%, 100% { transform: translateY(0) scale(1); }
+            50% { transform: translateY(-20px) scale(1.05); }
+        }
+
+        .services {
+            padding: 100px 2rem;
+            background-color: var(--white);
+        }
+
+        .services-header {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 4rem;
+        }
+
+        .services-header h2 {
+            margin-bottom: 1rem;
+        }
+
+        .services-header p {
+            font-size: 1.1rem;
+            color: var(--body-text);
+            margin-bottom: 0;
+        }
+
+        .services-grid {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
+        .service-card {
+            background-color: var(--gray);
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .service-card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-image {
+            height: 300px;
+            background: linear-gradient(135deg, rgba(93, 122, 136, 0.7) 0%, rgba(122, 148, 168, 0.7) 100%), url('https://www.dr-elmarto.at/.cm4all/mediadb/NEW/.wernerharrer_weninger__Nr_003__GROSS_.jpg/picture-2600');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 4rem;
+        }
+
+        .service-image::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(35, 40, 45, 0);
+            transition: background-color 0.3s ease;
+        }
+
+        .service-card:hover .service-image::after {
+            background-color: rgba(35, 40, 45, 0.2);
+        }
+
+        .service-text {
+            padding: 2rem;
+        }
+
+        .service-text h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        .service-text p {
+            margin-bottom: 0;
+            font-size: 0.95rem;
+        }
+
+        .doctor-profile {
+            background-color: var(--dark-heading);
+            color: var(--white);
+            padding: 100px 2rem;
+            position: relative;
+        }
+
+        .doctor-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .doctor-image {
+            height: 500px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            order: 2;
+        }
+
+        .doctor-text {
+            order: 1;
+        }
+
+        .doctor-text .label {
+            color: #A8C5D8;
+        }
+
+        .doctor-text h2 {
+            color: var(--white);
+            margin-bottom: 0.5rem;
+        }
+
+        .doctor-subtitle {
+            font-size: 0.8rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: #A8C5D8;
+            margin-bottom: 2rem;
+            display: block;
+        }
+
+        .doctor-bio {
+            margin-bottom: 2rem;
+            line-height: 1.8;
+        }
+
+        .doctor-quote {
+            padding: 2rem;
+            border-left: 3px solid var(--primary-accent);
+            background-color: rgba(93, 122, 136, 0.1);
+            margin: 2rem 0;
+            font-style: italic;
+            font-size: 1.1rem;
+        }
+
+        .qualifications {
+            list-style: none;
+            margin-top: 2rem;
+        }
+
+        .qualifications li {
+            padding: 0.7rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+
+        .qualifications li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--primary-accent);
+            font-weight: bold;
+        }
+
+        .qualifications li:hover {
+            transform: translateX(8px);
+        }
+
+        .faq {
+            padding: 100px 2rem;
+            background-color: var(--gray);
+        }
+
+        .faq-header {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 4rem;
+        }
+
+        .faq-header h2 {
+            margin-bottom: 1rem;
+        }
+
+        .faq-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background-color: var(--white);
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .faq-question {
+            padding: 1.5rem 2rem;
+            background-color: var(--white);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            color: var(--dark-heading);
+            transition: all 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background-color: var(--light-bg);
+            color: var(--primary-accent);
+        }
+
+        .faq-toggle {
+            font-size: 1.5rem;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.active .faq-toggle {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            background-color: var(--white);
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+        }
+
+        .faq-answer-content {
+            padding: 0 2rem 2rem 2rem;
+            color: var(--body-text);
+            line-height: 1.8;
+        }
+
+        .locations {
+            padding: 100px 2rem;
+            background-color: var(--white);
+        }
+
+        .locations-header {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 4rem;
+        }
+
+        .locations-header h2 {
+            margin-bottom: 1rem;
+        }
+
+        .locations-grid {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .location-card {
+            background-color: var(--light-bg);
+            padding: 2.5rem;
+            border-radius: 8px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .location-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .location-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .location-card h3 {
+            margin-bottom: 1rem;
+        }
+
+        .location-card p {
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+        }
+
+        .contact-cta {
+            padding: 100px 2rem;
+            background-image: linear-gradient(rgba(93,122,136,0.8), rgba(35,40,45,0.85)), url('https://www.dr-elmarto.at/.cm4all/mediadb/NEW/.IMG_5906.JPG/picture-2600');
+            background-size: cover;
+            background-position: center;
+            color: var(--white);
+            text-align: center;
+            position: relative;
+        }
+
+        .contact-cta-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .contact-cta h2 {
+            color: var(--white);
+            margin-bottom: 1rem;
+        }
+
+        .contact-cta p {
+            color: #D0D8DC;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+
+        .contact-cta .btn {
+            margin-top: 1rem;
+        }
+
+        .emergency-badge {
+            display: inline-block;
+            background-color: var(--primary-accent);
+            color: var(--white);
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            margin-top: 3rem;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .footer {
+            background-color: #F0F2F4;
+            padding: 4rem 2rem 2rem;
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        .footer-column h4 {
+            margin-bottom: 1.5rem;
+            color: var(--dark-heading);
+        }
+
+        .footer-column p {
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer-column a {
+            display: block;
+            color: var(--body-text);
+            text-decoration: none;
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-column a:hover {
+            color: var(--primary-accent);
+        }
+
+        .footer-emergency {
+            background-color: var(--primary-accent);
+            color: var(--white);
+            padding: 1rem;
+            border-radius: 4px;
+            margin-top: 1rem;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .footer-social a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-color: var(--primary-accent);
+            color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .footer-social a:hover {
+            background-color: var(--dark-heading);
+            transform: translateY(-3px);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #D6DFE2;
+            padding-top: 2rem;
+            text-align: center;
+            color: var(--body-text);
+            font-size: 0.9rem;
+        }
+
+        .footer-bottom-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-bottom-links a {
+            color: var(--body-text);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-bottom-links a:hover {
+            color: var(--primary-accent);
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            overflow-y: auto;
+        }
+
+        .modal.active {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding-top: 2rem;
+        }
+
+        .modal-content {
+            background-color: var(--white);
+            padding: 3rem;
+            border-radius: 8px;
+            max-width: 800px;
+            max-height: 90vh;
+            overflow-y: auto;
+            position: relative;
+            margin: auto;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            font-size: 2rem;
+            cursor: pointer;
+            color: var(--body-text);
+            transition: color 0.3s ease;
+        }
+
+        .modal-close:hover {
+            color: var(--primary-accent);
+        }
+
+        .modal h2 {
+            margin-bottom: 1.5rem;
+        }
+
+        .modal h3 {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .modal p {
+            margin-bottom: 1rem;
+        }
+
+        .modal ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .modal li {
+            margin-bottom: 0.5rem;
+        }
+
+        .cookie-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: var(--dark-heading);
+            color: var(--white);
+            padding: 2rem;
+            z-index: 998;
+            display: none;
+        }
+
+        .cookie-banner.active {
+            display: block;
+        }
+
+        .cookie-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .cookie-text {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .cookie-text p {
+            margin-bottom: 0.5rem;
+            color: #D0D8DC;
+            font-size: 0.95rem;
+        }
+
+        .cookie-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .cookie-btn {
+            padding: 0.75rem 1.5rem;
+            border-radius: 50px;
+            font-weight: 600;
+            cursor: pointer;
+            border: none;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        .cookie-btn-accept {
+            background-color: var(--primary-accent);
+            color: var(--white);
+        }
+
+        .cookie-btn-accept:hover {
+            background-color: #4d6478;
+        }
+
+        .cookie-btn-decline {
+            background-color: transparent;
+            color: var(--white);
+            border: 1px solid #D0D8DC;
+        }
+
+        .cookie-btn-decline:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        @keyframes fade-in {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in {
+            animation: fade-in 0.6s ease-out forwards;
+        }
+
+        @media (max-width: 1024px) {
+            .welcome-content,
+            .doctor-content {
+                grid-template-columns: 1fr;
+            }
+
+            .doctor-image {
+                order: 1;
+            }
+
+            .doctor-text {
+                order: 2;
+            }
+
+            .nav-menu {
+                gap: 1.5rem;
+            }
+
+            .right-section {
+                gap: 1rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .top-bar {
+                flex-direction: column;
+                gap: 1rem;
+                padding: 1rem;
+            }
+
+            .social-icons {
+                justify-content: center;
+            }
+
+            .logo {
+                font-size: 1.5rem;
+            }
+
+            .right-section {
+                flex-direction: column;
+                width: 100%;
+                gap: 0.5rem;
+            }
+
+            .phone-info {
+                text-align: center;
+            }
+
+            .nav-sticky {
+                padding: 1rem;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-menu {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+                background-color: var(--light-bg);
+                padding: 1.5rem;
+                max-width: none;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease;
+            }
+
+            .nav-menu.active {
+                max-height: 500px;
+            }
+
+            .hero {
+                min-height: 70vh;
+            }
+
+            .hero-content {
+                padding: 1rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .welcome {
+                padding: 60px 1rem;
+            }
+
+            .welcome-content {
+                gap: 2rem;
+            }
+
+            .welcome-image {
+                height: 350px;
+            }
+
+            .welcome-blob {
+                width: 280px;
+                height: 280px;
+            }
+
+            .welcome-blob-content {
+                width: 250px;
+                height: 250px;
+            }
+
+            .services {
+                padding: 60px 1rem;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .doctor-profile {
+                padding: 60px 1rem;
+            }
+
+            .doctor-image {
+                height: 300px;
+            }
+
+            .faq {
+                padding: 60px 1rem;
+            }
+
+            .locations {
+                padding: 60px 1rem;
+            }
+
+            .contact-cta {
+                padding: 60px 1rem;
+            }
+
+            .floating-btn {
+                bottom: 1rem;
+                right: 1rem;
+                padding: 0.8rem 1.2rem;
+                font-size: 0.8rem;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .footer-bottom-links {
+                gap: 1rem;
+            }
+
+            .cookie-content {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .cookie-buttons {
+                width: 100%;
+            }
+
+            .cookie-btn {
+                flex: 1;
+                min-width: 120px;
+            }
+
+            .modal-content {
+                margin: 1rem;
+                padding: 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 1.5rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1rem;
+            }
+
+            .btn {
+                padding: 0.8rem 1.5rem;
+                font-size: 0.9rem;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-cta-content {
+                padding: 0;
+            }
+
+            .footer-bottom-links {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+        }
+
+        a:focus, button:focus, input:focus, textarea:focus, select:focus {
+            outline: 2px solid var(--primary-accent);
+            outline-offset: 2px;
+        }
+
+        .skip-to-content {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background-color: var(--primary-accent);
+            color: var(--white);
+            padding: 8px;
+            text-decoration: none;
+            z-index: 100;
+        }
+
+        .skip-to-content:focus {
+            top: 0;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Zum Hauptinhalt springen</a>
+
+    <div class="top-bar">
+        <div class="social-icons">
+            <a href="#" class="social-icon" aria-label="Facebook">f</a>
+            <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+            <a href="#" class="social-icon" aria-label="LinkedIn">in</a>
+        </div>
+        <div class="logo-section">
+            <a href="/" class="logo">Dr. El Marto</a>
+        </div>
+        <div class="right-section">
+            <div class="phone-info">
+                <a href="tel:+43664328446">+43 664 328 44 65</a>
+            </div>
+            <a href="termin.html" class="btn btn-primary" style="padding: 0.8rem 1.5rem; font-size: 0.85rem;">Kontakt</a>
+        </div>
+    </div>
+
+    <nav class="nav-sticky" role="navigation" aria-label="Hauptnavigation">
+        <button class="hamburger" id="hamburger" aria-label="Navigation umschalten" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="#home">Startseite</a></li>
+            <li><a href="#about">Über uns</a></li>
+            <li><a href="#services">Leistungen</a></li>
+            <li><a href="#doctor">Dr. El Marto</a></li>
+            <li><a href="#locations">Ordinationen</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content">
+        <section class="hero" id="home" role="banner">
+            <div class="hero-content">
+                <span class="label">KNIECHIRURGIE & SPORTVERLETZUNGEN WIEN</span>
+                <h1>Die <em>Kunst</em> der Gelenkerhaltung</h1>
+                <div class="hero-subtitle">OA Dr. med. univ. Shady El Marto</div>
+                <span class="hero-label-small">FACHARZT FÜR UNFALLCHIRURGIE & ORTHOPÄDIE IN WIEN</span>
+                <div class="hero-cta">
+                    <a href="termin.html" class="btn btn-primary">Termin Buchen →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="welcome" id="about">
+            <div class="welcome-content">
+                <div class="welcome-text">
+                    <span class="label">WILLKOMMEN IN UNSERER ORDINATION</span>
+                    <h2>Ihr <em>rasches Comeback</em> ist unser Ziel.</h2>
+                    <p>Durch die Fokussierung auf Knie- und Sportverletzungen, vor allem auf die Versorgung von Meniskus- und Kreuzbandrissen durch die minimalinvasive Arthroskopie, profitieren PatientInnen in unserer Ordination in Wien vor allem von der hohen Expertise bei Verletzungen des Bewegungsapparats. Durch ein breites und umfassendes Netzwerk unserer Ordination im Herzen von Wien erhalten Sie von der Diagnostik bis zur Therapie sowie der Erstellung individueller Trainingspläne alles aus einer Hand.</p>
+                    <a href="#" class="btn btn-primary">Mehr über die Ordination</a>
+                </div>
+                <div class="welcome-image">
+                    <img src="https://www.dr-elmarto.at/.cm4all/mediadb/NEW/.DSCF9342-HDR_GROSS_.jpg/picture-2600"
+                         alt="Ordination Dr. El Marto Wien - Flur und Empfang"
+                         style="width:100%; height:100%; object-fit:cover; border-radius:50%;"
+                         loading="lazy"
+                         crossorigin="anonymous">
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="services-header">
+                <span class="label">UNSERE LEISTUNGEN</span>
+                <h2>Spezialisierte Versorgung für Ihre Gelenke</h2>
+                <p>Wir bieten umfassende orthopädische und unfallchirurgische Leistungen mit modernster Technik und höchster Expertise.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">🏋️</div>
+                    <div class="service-text">
+                        <h3>Kniechirurgie</h3>
+                        <p>Spezialisierte operative Versorgung aller Knieverletzungen und -erkrankungen</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">🔬</div>
+                    <div class="service-text">
+                        <h3>Arthroskopie</h3>
+                        <p>Minimalinvasive Gelenkchirurgie für schnelle Genesung und optimale Ergebnisse</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">⚽</div>
+                    <div class="service-text">
+                        <h3>Kreuzband-OP</h3>
+                        <p>Arthroskopische Kreuzbandrekonstruktion mit modernsten Techniken</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">💪</div>
+                    <div class="service-text">
+                        <h3>Meniskus-OP</h3>
+                        <p>Meniskuserhaltende Chirurgie und Meniskusrekonstruktion</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">🏃</div>
+                    <div class="service-text">
+                        <h3>Sportverletzungen</h3>
+                        <p>Umfassende Versorgung akuter und chronischer Sportverletzungen</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">🦴</div>
+                    <div class="service-text">
+                        <h3>Frakturversorgung</h3>
+                        <p>Minimalinvasive operative Versorgung von Knochenbrüchen</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="doctor-profile" id="doctor">
+            <div class="doctor-content">
+                <div class="doctor-image">
+                    <img src="https://www.dr-elmarto.at/.cm4all/mediadb/NEW/.wernerharrer_weninger__Nr_097__GROSS_.jpg/picture-2600"
+                         alt="OA Dr. med. univ. Shady El Marto - Kniechirurg Wien"
+                         style="width:100%; height:100%; object-fit:cover; object-position: center top;"
+                         loading="lazy"
+                         crossorigin="anonymous">
+                </div>
+                <div class="doctor-text">
+                    <span class="label" style="color: #A8C5D8;">IHR SPEZIALIST</span>
+                    <h2>Lernen Sie <em>Dr. El Marto</em> kennen</h2>
+                    <span class="doctor-subtitle">KNIEEXPERTE & SPORTTRAUMATOLOGE IN WIEN</span>
+                    <p class="doctor-bio">OA Dr. med. univ. Shady El Marto ist Facharzt für Unfallchirurgie sowie Facharzt für Orthopädie & Traumatologie und Oberarzt im UKH Lorenz Böhler. Er ist Belegarzt in mehreren Privatspitälern in Wien sowie Mitgründer und Miteigentümer des Sports Medical Centers VIENNA und des Med Center Vienna.</p>
+                    <div class="doctor-quote">
+                        "Durch Spezialisierung erreicht man hohe Fallzahlen bestimmter Operationen sowie Behandlungen und somit die höchste Patientensicherheit und Zufriedenheit!"
+                    </div>
+                    <ul class="qualifications">
+                        <li>Facharzt für Unfallchirurgie</li>
+                        <li>Facharzt für Orthopädie & Traumatologie</li>
+                        <li>Oberarzt im UKH Lorenz Böhler</li>
+                        <li>FIFA-Vertrauensarzt</li>
+                        <li>FIFA Diploma in Football Medicine</li>
+                        <li>Zertifizierter Notarzt für ganz Österreich</li>
+                        <li>Belegarzt in Wiener Privatspitälern</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq" id="faq">
+            <div class="faq-header">
+                <span class="label">HÄUFIG GESTELLTE FRAGEN</span>
+                <h2>Ihre Fragen beantwortet</h2>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Wie läuft eine Erstuntersuchung ab?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Bei Ihrem ersten Besuch erfolgt eine gründliche klinische Untersuchung des betroffenen Gelenks. Je nach Befund werden bildgebende Verfahren wie Röntgen oder MRT veranlasst. Gemeinsam besprechen wir die Diagnose und erstellen einen individuellen Behandlungsplan.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Wie lange dauert die Genesung nach einer Kreuzband-OP?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Die Rehabilitation nach einer Kreuzbandrekonstruktion dauert in der Regel 6-9 Monate. In den ersten Wochen steht die Wundheilung im Vordergrund, gefolgt von gezielter Physiotherapie. Die Rückkehr zum Sport erfolgt individuell nach ärztlicher Freigabe.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Was ist eine Arthroskopie?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Die Arthroskopie ist ein minimalinvasiver Eingriff, bei dem über kleine Hautschnitte eine Kamera und spezielle Instrumente in das Gelenk eingeführt werden. Dies ermöglicht die Diagnose und Behandlung von Gelenkproblemen mit minimaler Gewebeschädigung und schnellerer Erholung.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Werden die Kosten von der Krankenkasse übernommen?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Als Wahlarzt und KFA-Vertragsarzt können Sie einen Teil der Behandlungskosten von Ihrer Krankenkasse rückerstattet bekommen. Wir stellen Ihnen eine detaillierte Rechnung aus, die Sie bei Ihrer Versicherung einreichen können.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Kann ich auch im Notfall einen Termin bekommen?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Ja, wir sind unter unserer Notfallnummer +43 664 328 44 65 rund um die Uhr, 7 Tage die Woche, telefonisch und per WhatsApp erreichbar. Bei akuten Verletzungen bemühen wir uns um schnellstmögliche Terminvergabe.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="locations" id="locations">
+            <div class="locations-header">
+                <span class="label">UNSERE STANDORTE</span>
+                <h2>Besuchen Sie uns an einem unserer drei Standorte</h2>
+            </div>
+            <div class="locations-grid">
+                <div class="location-card">
+                    <img src="https://www.dr-elmarto.at/.cm4all/mediadb/NEW/.IMG_5906.JPG/picture-2600"
+                         alt="Sports Medical Center Vienna - Am Hof 11, 1010 Wien"
+                         style="width:100%; height:200px; object-fit:cover; border-radius: 12px 12px 0 0;"
+                         loading="lazy"
+                         crossorigin="anonymous">
+                    <div class="location-icon">📍</div>
+                    <h3>Sports Medical Center</h3>
+                    <p><strong>Am Hof 11/9</strong></p>
+                    <p>1010 Wien</p>
+                    <p><a href="tel:+43664328446" style="color: var(--primary-accent); text-decoration: none;">+43 664 328 44 65</a></p>
+                </div>
+                <div class="location-card">
+                    <img src="https://www.dr-elmarto.at/.cm4all/mediadb/NEW/.wernerharrer_weninger__Nr_003__GROSS_.jpg/picture-2600"
+                         alt="Arthroclinic Wien - Wattmanngasse 13, 1130 Wien"
+                         style="width:100%; height:200px; object-fit:cover; border-radius: 12px 12px 0 0;"
+                         loading="lazy"
+                         crossorigin="anonymous">
+                    <div class="location-icon">📍</div>
+                    <h3>Arthroclinic</h3>
+                    <p><strong>Wattmanngasse 13/1+2</strong></p>
+                    <p>1130 Wien</p>
+                    <p><a href="tel:+43664328446" style="color: var(--primary-accent); text-decoration: none;">+43 664 328 44 65</a></p>
+                </div>
+                <div class="location-card">
+                    <img src="https://www.dr-elmarto.at/.cm4all/mediadb/NEW/.DSCF9342-HDR_GROSS_.jpg/picture-2600"
+                         alt="Privatklinik Döbling Wien - 1190 Wien"
+                         style="width:100%; height:200px; object-fit:cover; border-radius: 12px 12px 0 0;"
+                         loading="lazy"
+                         crossorigin="anonymous">
+                    <div class="location-icon">📍</div>
+                    <h3>Privatklinik Döbling</h3>
+                    <p><strong>Heiligenstädter Str. 46-48</strong></p>
+                    <p>1190 Wien</p>
+                    <p><a href="tel:+43664328446" style="color: var(--primary-accent); text-decoration: none;">+43 664 328 44 65</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-cta" id="contact">
+            <div class="contact-cta-content">
+                <h2>Bereit für Ihr Comeback?</h2>
+                <p>Vereinbaren Sie noch heute einen Termin und lassen Sie sich von unserem Experten beraten.</p>
+                <a href="termin.html" class="btn btn-primary">Termin Buchen</a>
+                <div class="emergency-badge">
+                    🚨 Notfall: <a href="tel:+43664328446" style="color: var(--white); text-decoration: none;">+43 664 328 44 65</a> (24/7)
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>Dr. El Marto</h4>
+                <p><strong>Knie- & Sportverletzungen</strong></p>
+                <p>Facharzt für Unfallchirurgie und Orthopädie & Traumatologie in Wien.</p>
+                <div class="footer-emergency">
+                    🚨 AKUT 24/7 erreichbar
+                </div>
+            </div>
+            <div class="footer-column">
+                <h4>Kontakt</h4>
+                <p>
+                    <strong>Sports Medical Center</strong><br>
+                    Am Hof 11/9<br>
+                    1010 Wien, Österreich
+                </p>
+                <p>
+                    <a href="tel:+43664328446">📞 +43 664 328 44 65</a><br>
+                    <a href="mailto:ordination@dr-elmarto.at">📧 ordination@dr-elmarto.at</a>
+                </p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Instagram">📷</a>
+                    <a href="#" aria-label="LinkedIn">in</a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h4>Navigation</h4>
+                <a href="#home">Startseite</a>
+                <a href="#about">Über uns</a>
+                <a href="#services">Leistungen</a>
+                <a href="#doctor">Dr. El Marto</a>
+                <a href="#locations">Ordinationen</a>
+                <a href="#faq">FAQ</a>
+                <a href="termin.html">Termin Buchen</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 OA Dr. Shady El Marto. Alle Rechte vorbehalten.</p>
+            <div class="footer-bottom-links">
+                <a href="#" onclick="showModal('impressum'); return false;">Impressum</a>
+                <a href="#" onclick="showModal('datenschutz'); return false;">Datenschutz</a>
+                <a href="#" onclick="showModal('cookies'); return false;">Cookie-Einstellungen</a>
+                <a href="#" onclick="showModal('barrierefreiheit'); return false;">Barrierefreiheit</a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="termin.html" class="floating-btn" title="Jetzt einen Termin buchen">
+        Termin Buchen →
+    </a>
+
+    <div class="cookie-banner" id="cookieBanner">
+        <div class="cookie-content">
+            <div class="cookie-text">
+                <p><strong>Wir verwenden Cookies</strong></p>
+                <p>Diese Website verwendet notwendige Cookies für die Funktionalität sowie Statistik- und Marketing-Cookies mit Ihrer Zustimmung.</p>
+            </div>
+            <div class="cookie-buttons">
+                <button class="cookie-btn cookie-btn-accept" onclick="acceptAllCookies()">Alle akzeptieren</button>
+                <button class="cookie-btn cookie-btn-decline" onclick="declineAllCookies()">Nur notwendige</button>
+                <button class="cookie-btn cookie-btn-decline" onclick="showModal('cookies')">Einstellungen</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="impressumModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('impressum')">&times;</span>
+            <h2>Impressum</h2>
+            <h3>Betreiber der Website</h3>
+            <p><strong>OA Dr. med. univ. Shady El Marto</strong></p>
+            <p>
+                Am Hof 11/9<br>
+                1010 Wien, Österreich<br>
+                Telefon: <a href="tel:+43664328446">+43 664 328 44 65</a><br>
+                E-Mail: <a href="mailto:ordination@dr-elmarto.at">ordination@dr-elmarto.at</a>
+            </p>
+
+            <h3>Berufstitel und Berufsrecht</h3>
+            <p>
+                <strong>Berufstitel:</strong> Facharzt für Unfallchirurgie, Facharzt für Orthopädie & Traumatologie<br>
+                <strong>Berufsrecht:</strong> Ärztegesetz 1998 (ÄrzteG 1998)<br>
+                <strong>Aufsichtsbehörde:</strong> Österreichische Ärztekammer, Weihburggasse 10-12, 1010 Wien<br>
+                <strong>Mitgliedschaft:</strong> Ärztekammer Wien
+            </p>
+
+            <h3>Kammer und Berufsregeln</h3>
+            <p>
+                Die Berufsregeln und weitere Informationen finden Sie unter <a href="https://www.aerztekammer.at" target="_blank" rel="noopener noreferrer">www.aerztekammer.at</a>
+            </p>
+
+            <h3>UID und Steuernummer</h3>
+            <p>
+                <strong>UID-Nummer:</strong> ATU XXXXXXXX (Platzhalter)<br>
+                Finanzamt Wien
+            </p>
+
+            <h3>Haftung für Inhalte</h3>
+            <p>
+                Die Inhalte dieser Website wurden mit größter Sorgfalt zusammengestellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden. Die Nutzung dieser Website erfolgt auf eigene Gefahr des Benutzers.
+            </p>
+
+            <h3>Haftung für Links</h3>
+            <p>
+                Externe Links werden regelmäßig überprüft. Bei Bekanntwerden von Rechtsverletzungen werden solche Links unverzüglich entfernt.
+            </p>
+
+            <h3>Urheberrecht</h3>
+            <p>
+                Die auf dieser Website veröffentlichten Inhalte und Werke unterliegen dem Urheberrecht. Jede Art der Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Nutzung außerhalb der Grenzen des Urheberrechtes bedarf der schriftlichen Zustimmung des Autors bzw. Urhebers.
+            </p>
+        </div>
+    </div>
+
+    <div id="datenschutzModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('datenschutz')">&times;</span>
+            <h2>Datenschutzerklärung</h2>
+            <h3>Allgemeine Informationen</h3>
+            <p>
+                Diese Datenschutzerklärung informiert Sie über die Verarbeitung Ihrer personenbezogenen Daten gemäß der Datenschutz-Grundverordnung (DSGVO) und dem Datenschutzgesetz (DSG).
+            </p>
+
+            <h3>Verantwortlicher</h3>
+            <p>
+                <strong>OA Dr. med. univ. Shady El Marto</strong><br>
+                Am Hof 11/9, 1010 Wien<br>
+                E-Mail: ordination@dr-elmarto.at
+            </p>
+
+            <h3>Erhobene Daten</h3>
+            <p>
+                Folgende Daten werden von uns erfasst:
+            </p>
+            <ul>
+                <li>Name, Vorname, Anrede</li>
+                <li>Kontaktdaten (E-Mail-Adresse, Telefonnummer)</li>
+                <li>Adressinformationen</li>
+                <li>Medizinische Daten (nur mit Einwilligung)</li>
+                <li>IP-Adresse, Browser-Informationen, Nutzungsdaten</li>
+            </ul>
+
+            <h3>Zweck der Datenverarbeitung</h3>
+            <p>
+                Wir verarbeiten Ihre Daten zu folgenden Zwecken:
+            </p>
+            <ul>
+                <li>Terminverwaltung und -durchführung</li>
+                <li>Erfüllung medizinischer Leistungen</li>
+                <li>Rechnungslegung und Zahlungsabwicklung</li>
+                <li>Rechtliche und vertragliche Verpflichtungen</li>
+                <li>Website-Verbesserung durch Analyse (mit Einwilligung)</li>
+            </ul>
+
+            <h3>Rechtsgrundlage</h3>
+            <p>
+                Die Verarbeitung erfolgt auf Grundlage von:
+            </p>
+            <ul>
+                <li>Art. 6 Abs. 1 b) DSGVO (Vertragserfüllung)</li>
+                <li>Art. 6 Abs. 1 c) DSGVO (Rechtliche Verpflichtung)</li>
+                <li>Art. 6 Abs. 1 a) DSGVO (Einwilligung)</li>
+                <li>Art. 9 DSGVO (Verarbeitung besonderer Kategorien)</li>
+            </ul>
+
+            <h3>Speicherdauer</h3>
+            <p>
+                Ihre Daten werden entsprechend gesetzlicher Aufbewahrungspflichten gespeichert. Dies beträgt bei Patientendaten mindestens 10 Jahre gemäß Ärztegesetz 1998.
+            </p>
+
+            <h3>Ihre Rechte</h3>
+            <p>
+                Gemäß DSGVO haben Sie folgende Rechte:
+            </p>
+            <ul>
+                <li>Recht auf Auskunft (Art. 15 DSGVO)</li>
+                <li>Recht auf Berichtigung (Art. 16 DSGVO)</li>
+                <li>Recht auf Löschung (Art. 17 DSGVO)</li>
+                <li>Recht auf Einschränkung (Art. 18 DSGVO)</li>
+                <li>Recht auf Datenportabilität (Art. 20 DSGVO)</li>
+                <li>Widerspruchsrecht (Art. 21 DSGVO)</li>
+            </ul>
+
+            <h3>Datenschutzbehörde</h3>
+            <p>
+                Für Anfragen und Beschwerden können Sie sich an die österreichische Datenschutzbehörde wenden: <a href="https://www.dsb.gv.at" target="_blank" rel="noopener noreferrer">www.dsb.gv.at</a>
+            </p>
+
+            <h3>Kontakt zum Datenschutzverantwortlichen</h3>
+            <p>
+                Anfragen zum Datenschutz richten Sie bitte an: ordination@dr-elmarto.at
+            </p>
+        </div>
+    </div>
+
+    <div id="cookiesModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('cookies')">&times;</span>
+            <h2>Cookie-Einstellungen</h2>
+            <p>
+                Wir verwenden Cookies, um Ihre Nutzungserfahrung zu optimieren. Bitte wählen Sie, welche Cookies Sie akzeptieren möchten.
+            </p>
+
+            <h3>Notwendige Cookies</h3>
+            <p>
+                Diese Cookies sind notwendig für die grundlegende Funktionalität dieser Website.
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" checked disabled> Notwendig (immer aktiviert)
+                </label>
+            </p>
+
+            <h3>Funktionale Cookies</h3>
+            <p>
+                Diese Cookies ermöglichen erweiterte Funktionen und Personalisierung.
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" id="functionalCookies"> Funktionale Cookies
+                </label>
+            </p>
+
+            <h3>Analytik Cookies</h3>
+            <p>
+                Diese Cookies helfen uns zu verstehen, wie Sie unsere Website nutzen.
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" id="analyticalCookies"> Analytik Cookies
+                </label>
+            </p>
+
+            <h3>Marketing Cookies</h3>
+            <p>
+                Diese Cookies werden verwendet, um Werbung relevant und interessant zu gestalten.
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" id="marketingCookies"> Marketing Cookies
+                </label>
+            </p>
+
+            <div style="margin-top: 2rem; display: flex; gap: 1rem;">
+                <button onclick="saveCookieSettings()" class="btn btn-primary">Einstellungen speichern</button>
+                <button onclick="closeModal('cookies')" class="btn btn-secondary">Abbrechen</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="barrierefreiheitModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('barrierefreiheit')">&times;</span>
+            <h2>Barrierefreiheitserklärung</h2>
+            <h3>Engagement für Barrierefreiheit</h3>
+            <p>
+                OA Dr. med. univ. Shady El Marto ist verpflichtet, Websites gemäß den Bestimmungen des Behindertengleichstellungsgesetzes (BGStG) barrierearm zu gestalten und zu bewirtschaften.
+            </p>
+
+            <h3>Barrierefreiheitsstandards</h3>
+            <p>
+                Diese Website strebt die Einhaltung der Web Content Accessibility Guidelines (WCAG) 2.1 Level AA an.
+            </p>
+
+            <h3>Erreichte Barrierefreiheit</h3>
+            <p>
+                Diese Website bietet:
+            </p>
+            <ul>
+                <li>Tastaturnavigation für alle interaktiven Elemente</li>
+                <li>Angemessene Kontraste und lesbare Schriftgrößen</li>
+                <li>Alt-Texte für Bilder</li>
+                <li>Strukturierte Überschriften-Hierarchie</li>
+                <li>Verständliche Seitentitel</li>
+                <li>Sprachliche Kennzeichnung</li>
+                <li>Unterstützung für Screenreader</li>
+            </ul>
+
+            <h3>Bekannte Einschränkungen</h3>
+            <p>
+                Während wir stets an der Verbesserung der Barrierefreiheit arbeiten, können einige Inhalte Zugriffshürden aufweisen.
+            </p>
+
+            <h3>Feedback und Unterstützung</h3>
+            <p>
+                Falls Sie auf Zugriffsprobleme stoßen, kontaktieren Sie uns unter:<br>
+                <strong>Telefon:</strong> +43 664 328 44 65<br>
+                <strong>E-Mail:</strong> ordination@dr-elmarto.at
+            </p>
+
+            <h3>Beschwerdeverfahren</h3>
+            <p>
+                Beschwerden können auch bei der Ombudsstelle des Bundes eingereicht werden:<br>
+                <a href="https://www.volksanwaltschaft.gv.at" target="_blank" rel="noopener noreferrer">www.volksanwaltschaft.gv.at</a>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        const structuredData = {
+            "@context": "https://schema.org",
+            "@type": "MedicalBusiness",
+            "name": "OA Dr. med. univ. Shady El Marto",
+            "description": "Facharzt für Kniechirurgie und Sportverletzungen in Wien",
+            "url": "https://dr-elmarto.at/",
+            "telephone": "+43664328446",
+            "email": "ordination@dr-elmarto.at",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Am Hof 11/9",
+                "addressLocality": "Wien",
+                "postalCode": "1010",
+                "addressCountry": "AT"
+            },
+            "medicalSpecialty": "Traumatology, Orthopedic Surgery",
+            "areaServed": "Wien, Österreich",
+            "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                "opens": "24/7"
+            }
+        };
+
+        const script = document.createElement('script');
+        script.type = 'application/ld+json';
+        script.innerHTML = JSON.stringify(structuredData);
+        document.head.appendChild(script);
+
+        const faqSchema = {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Wie läuft eine Erstuntersuchung ab?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Bei Ihrem ersten Besuch erfolgt eine gründliche klinische Untersuchung des betroffenen Gelenks. Je nach Befund werden bildgebende Verfahren wie Röntgen oder MRT veranlasst. Gemeinsam besprechen wir die Diagnose und erstellen einen individuellen Behandlungsplan."
+                    }
+                }
+            ]
+        };
+
+        const faqScript = document.createElement('script');
+        faqScript.type = 'application/ld+json';
+        faqScript.innerHTML = JSON.stringify(faqSchema);
+        document.head.appendChild(faqScript);
+
+        function showModal(modalType) {
+            const modalId = modalType + 'Modal';
+            const modal = document.getElementById(modalId);
+            if (modal) {
+                modal.classList.add('active');
+            }
+        }
+
+        function closeModal(modalType) {
+            const modalId = modalType + 'Modal';
+            const modal = document.getElementById(modalId);
+            if (modal) {
+                modal.classList.remove('active');
+            }
+        }
+
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+                event.target.classList.remove('active');
+            }
+        };
+
+        function acceptAllCookies() {
+            localStorage.setItem('cookieConsent', JSON.stringify({
+                necessary: true,
+                functional: true,
+                analytical: true,
+                marketing: true
+            }));
+            document.getElementById('cookieBanner').classList.remove('active');
+        }
+
+        function declineAllCookies() {
+            localStorage.setItem('cookieConsent', JSON.stringify({
+                necessary: true,
+                functional: false,
+                analytical: false,
+                marketing: false
+            }));
+            document.getElementById('cookieBanner').classList.remove('active');
+        }
+
+        function saveCookieSettings() {
+            const settings = {
+                necessary: true,
+                functional: document.getElementById('functionalCookies').checked,
+                analytical: document.getElementById('analyticalCookies').checked,
+                marketing: document.getElementById('marketingCookies').checked
+            };
+            localStorage.setItem('cookieConsent', JSON.stringify(settings));
+            closeModal('cookies');
+            document.getElementById('cookieBanner').classList.remove('active');
+        }
+
+        function initCookieBanner() {
+            const cookieConsent = localStorage.getItem('cookieConsent');
+            if (!cookieConsent) {
+                document.getElementById('cookieBanner').classList.add('active');
+            }
+        }
+
+        function initFAQ() {
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                question.addEventListener('click', () => {
+                    item.classList.toggle('active');
+                });
+            });
+        }
+
+        function initHamburger() {
+            const hamburger = document.getElementById('hamburger');
+            const navMenu = document.getElementById('navMenu');
+
+            if (!hamburger || !navMenu) return;
+
+            hamburger.addEventListener('click', () => {
+                hamburger.classList.toggle('active');
+                navMenu.classList.toggle('active');
+            });
+
+            // Close menu when a link is clicked
+            navMenu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    hamburger.classList.remove('active');
+                    navMenu.classList.remove('active');
+                });
+            });
+        }
+
+        function initScrollAnimations() {
+            const elements = document.querySelectorAll('section');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('fade-in');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            elements.forEach(el => observer.observe(el));
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            initCookieBanner();
+            initFAQ();
+            initHamburger();
+            initScrollAnimations();
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#') {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth' });
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+-------------------------------------------------------
+1. top bar Logo mittig platzieren. nimm das logo names: "LOGO_FONT_emirateS_black_003"
+
+2. Erstelle eine weitere seite, die über den Button "MEHR Über die ORDINATION" selektiert werden kann. Diese Setei stellt das gesamte Team  vor. bestehend aus: Dr. El Marto, zentrale Figur. Einem Sportwissenschaftler names: Alexander Al Sarrag. einem Heilmasseur names: Matthias Massagemeister und einem  Physiotherapeuten names: Phillip Gruber. zu jeder Person kommt ein kurzer Text sowie en Foto. Das Foto heißt Fady_001. das kannst du als platzhaöter für alle bilder vrwenden. passe die größe und form entsprechend dem gesamten webauftritt an. der text lautet: "Sportwissenschaft - Trainingsplanung
+Eine besondere und höchst moderne Erweiterung der Nachbehandlung nach Verletzungen stellt mittlerweile die Sportwissenschaft dar. Was zumeist hauptsächlich Profisportlern in großen Vereinen zugänglich ist, erhalten unsere PatientInnen im Anschluss an die physikalische Therapie, um so einen individuellen Trainingsplan zu entwickeln.
+
+Damit können unsere PatientInnen, nach Abschluss ihrer Behandlung anhand dieser Trainingsanleitung einen aktiveren Lebensstil beginnen und so zukünftige Verletzungen vermeiden. Daher erweitert ein Sportwissenschaftler unser Ordinationsteam. Er besitzt große Erfahrung aus dem österreichischen Profifußball und betreut aktuell einen der großen Wiener Clubs mit seiner Expertise." Auch diesen Text kannst du als Platzhalter bei allen teammitgliedern einfügen. 
+
+
+3. Als nächstes braucht es eine weitere Unterseite für die "serive-card" names "kniechirurgie". Die Seite soll wesentliche Informationen für das knie enthalten. Extrahiere sämtliche Infos aus diesen links und bilde die Unterseite dazu aus: https://www.dr-elmarto.at/Knie/meniskus/, https://www.dr-elmarto.at/Knie/kreuzband/, https://www.dr-elmarto.at/Knie/knorpel/, https://www.dr-elmarto.at/Knie/Patellaluxation/, https://www.dr-elmarto.at/Knie/plicasyndorm/, https://www.dr-elmarto.at/Knie/Seitenband/, https://www.dr-elmarto.at/Knie/Achsenfehlstellung/, https://www.dr-elmarto.at/Knie/arthrose/. 
+
+
+
+4. Als nächstes braucht es eine weitere Unterseite für die "serive-card" names "Sportverletzungen". die seite soll sämtliche Informationen zu den sportverletzzungen haben. Informationen findst du hier:https://www.dr-elmarto.at/Sportverletzung/, https://www.dr-elmarto.at/Sportverletzung/Knochenbruch/, https://www.dr-elmarto.at/Sportverletzung/Bandverletzung/, https://www.dr-elmarto.at/Sportverletzung/Sehnenverletzung/, füge zu allen Themen auch ein bild dazu ein zur visuellen Darstellung. als Platzhalter vberwende: Sportverletzung_Knochenbruch_001 für die Themen der Sportverletzung. 
+
+
+ 
+5. Als nächstes braucht es eine weitere Unterseite für die "serive-card" names "therapieformen". Fülle die Seite mit den Therapieformen. Infos findest du hier: https://www.dr-elmarto.at/Therapie/konservative-Behandlung/. die links unter der seite brauchen wir nicht. zu jedertherapieform gibt es einen kurzen Werbetext, wir gut das ist und wie hilfreich jede form ist. du kannstd ich auch auf Studien beziehen, die du im Internet findest. wichtig ist jetzt, der aufbau und die Struktur der seite.
+
+6. unter dr. El Marto kannst du die div class "doctor-image" löschen, da es schon ein extra Image gibt. das belassen wir.
+
+
+7. die Primary Accent farbe solls ein: #1d95a7.
+8. Ändere die farbe des "--light-bg": #e1e7f3.
+
+
+9. füge link für facebook hinzu: https://www.facebook.com/drelmarto/
+10. füge den entsprechenden Link für instagramm hinzu: auf instagramm unter "dr_elmarto" . 
+
+11. unter "faq" den allgemienne ablauf an erste stelle platzieren. den inhalt schön gegliedert mit absatz der einzelnen punkte. 
+
+12. das facebook logo oben links auf der seite bitte schwarz machen. Füge das neue instagram logo auch in schwarz hinzu. 
+
+13. entferne in der top bar den button "kontakt". füge ein telefon oder handysymbol vor die telefonnummer ein. 
+
+
+-------------------------------------------------------------------------
+
+
+
+
+- Logo dominanter und größer
+- Unterseite Team: ersetze das Bild von "OA Dr. med. univ. Shady El Marto" mit folgendem  bild: "Team_shady_001"
+- Binde die Terminbuchungsseite, die du bereits erstellt hast, ein.  jeder "Termin buchen" button soll zu der seite führen. 
+- füge ganz unten auf der seite unter kontakt neben der email Adresse einen kleinen button hinzu, der die email Adresse kopiert, also in die zwischenablage legt. 
+- Auf der Unterseite "Leistungen" entferne jeden Button names "Beratungstermin buchen", der unter jeder Beschreibung enthalten sit. 
+- Auf der Unterseite "Leistungen" ist ein kleiner spalt zwischen dem Hauptmenü (Startseite, Über uns,...) und dem Untermenü (Meniskus, Kreuzband,..). dieser soll nicht sichtbar sein. 
+- Unter Leistungen soll auch ein Dropdown menü sein, der  alle 3 unterschiedlichen Leistungen beinhaltet.
+- Füge unter Therapieformen hinzu, das wir ganz neu in der Ordination eine neue Therapieform anbieten, weil das Studien belegen: Vitamin Infusion. heben das entsprechend hervor und unter diesem neuen Punkt gleich den Button names "Beratungstermin buchen". Füge einen kurzen prägnanten Werbetext hinzu, wie sinnvoll das nach einer OP ist und die wundheilung nochmals deutlich beschleunigt, weil wir dem  Körper geben was er braucht, zu dem Zeitpunkt wann er es braucht. verwende das Bild: "Vitamin_Infusion_image_001"
+- Füge unter "unsere Leistungen" diese neue Therapieform entsprechend ein und hebe diese leicht hervor. verwende das Bild: "Vitamin_Infusion_image_001". der punkt soll kein eigender werden, sondern eigentlich nur hervorgehoben und informativ, da der  neu ist. das wort neu soll vorkommen und hervorstehen. 
+
+
+
+-------------------------------------------------------------------------
