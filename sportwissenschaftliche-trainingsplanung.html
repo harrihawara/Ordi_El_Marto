@@ -163,7 +163,7 @@
   <span class="label" style="display:block;text-align:center;">IHR ANSPRECHPARTNER</span>
   <h2 style="text-align:center;margin-bottom:2.5rem;">Alexander Al Sarrag – <em>Sportwissenschaft &amp; Trainingsplanung</em></h2>
   <div class="expert-card">
-    <img src="pictures/Alexander_Al_Sarrag_001.png" alt="Alexander Al Sarrag – Sportwissenschafter Wien" class="expert-photo" loading="lazy">
+    <img src="pictures/Alexander_Al_Sarrag_001.jpg" alt="Alexander Al Sarrag – Sportwissenschafter Wien" class="expert-photo" loading="lazy">
     <div class="expert-text">
       <span class="expert-title">BSc Sportwissenschaft &amp; Trainingsplanung</span>
       <h3>Alexander Al Sarrag</h3>
@@ -433,6 +433,19 @@ function closeMenu(){
   window.scrollTo(0,_scrollY);
   ham.setAttribute('aria-expanded','false');
 }
+function closeMenuInstant(){
+  var wasLocked=document.body.style.position==='fixed';
+  nav.style.setProperty('transition','none','important');
+  nav.classList.remove('open');
+  document.body.classList.remove('menu-open');
+  document.body.style.overflow='';
+  document.body.style.position='';
+  document.body.style.top='';
+  document.body.style.width='';
+  if(wasLocked)window.scrollTo(0,_scrollY);
+  ham.setAttribute('aria-expanded','false');
+  requestAnimationFrame(function(){nav.style.removeProperty('transition');});
+}
 ham.addEventListener('click',function(){nav.classList.contains('open')?closeMenu():openMenu();});
 cb.addEventListener('click',closeMenu);
 nav.querySelectorAll('a').forEach(function(link){
@@ -441,7 +454,8 @@ nav.querySelectorAll('a').forEach(function(link){
     if(href.startsWith('#')){
       e.preventDefault();
       var hash=href;
-      closeMenu();
+      var _ml=document.body.style.position==='fixed';
+      closeMenuInstant();
       setTimeout(function(){
         var target=document.querySelector(hash);
         if(target){
@@ -449,11 +463,11 @@ nav.querySelectorAll('a').forEach(function(link){
           var navH=navEl?navEl.offsetHeight:60;
           var absTop=0;var el=target;
           while(el){absTop+=el.offsetTop||0;el=el.offsetParent;}
-          window.scrollTo({top:Math.max(0,absTop-navH-20),behavior:'smooth'});
+          window.scrollTo({top:Math.max(0,absTop-navH+5),behavior:'smooth'});
         }
-      },320);
+      },_ml?100:0);
     } else {
-      closeMenu();
+      closeMenuInstant();
     }
   });
 });
