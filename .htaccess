@@ -1,0 +1,106 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# .htaccess — www.dr-elmarto.at
+# World4You / Apache
+# ═══════════════════════════════════════════════════════════════════════════════
+
+Options -Indexes
+ServerSignature Off
+AddDefaultCharset UTF-8
+
+RewriteEngine On
+
+# ── 1. HTTP → HTTPS (301 permanent) ──────────────────────────────────────────
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# ── 2. non-www → www (301 permanent) ─────────────────────────────────────────
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ https://www.dr-elmarto.at/$1 [R=301,L]
+
+# ── 3. Alte Bilder die nicht mehr existieren → Startseite ────────────────────
+# Nur wenn die Datei auf dem Server nicht gefunden wird (keine neuen Bilder betroffen)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule \.(jpe?g|png|gif|webp|svg|bmp|tiff?|ico)$ / [R=301,L,NC]
+
+# ── 4. Alte Seiten → 301 Redirects ───────────────────────────────────────────
+# Format: RedirectMatch 301 ^/AlteURL/?$  /NeueURL
+# Das /?$ erlaubt sowohl /Pfad/ als auch /Pfad (mit und ohne abschließenden Schrägstrich)
+
+# Startseite / Home
+RedirectMatch 301 ^/Home/?$                                /
+
+# Team
+RedirectMatch 301 ^/Team/Statement/?$                      /team.html
+RedirectMatch 301 ^/Team/dr-shady-el-marto/?$             /#doctor
+RedirectMatch 301 ^/Team/physiotherapie/?$                 /physiotherapie.html
+RedirectMatch 301 ^/Team/sportwissenschaft/?$              /sportwissenschaftliche-trainingsplanung.html
+RedirectMatch 301 ^/Team/?$                                /team.html
+
+# Knie (Unterseiten zuerst, dann Hauptseite)
+RedirectMatch 301 ^/Knie/meniskus/?$                       /kniechirurgie.html
+RedirectMatch 301 ^/Knie/kreuzband/?$                      /kniechirurgie.html
+RedirectMatch 301 ^/Knie/knorpel/?$                        /kniechirurgie.html
+RedirectMatch 301 ^/Knie/Patellaluxation/?$                /kniechirurgie.html
+RedirectMatch 301 ^/Knie/plicasyndorm/?$                   /kniechirurgie.html
+RedirectMatch 301 ^/Knie/Seitenband/?$                     /kniechirurgie.html
+RedirectMatch 301 ^/Knie/Achsenfehlstellung/?$             /kniechirurgie.html
+RedirectMatch 301 ^/Knie/arthrose/?$                       /kniechirurgie.html
+RedirectMatch 301 ^/Knie/?$                                /kniechirurgie.html
+
+# Sportverletzung (Unterseiten zuerst, dann Hauptseite)
+RedirectMatch 301 ^/Sportverletzung/Knochenbruch/?$        /sportverletzungen.html
+RedirectMatch 301 ^/Sportverletzung/Bandverletzung/?$      /sportverletzungen.html
+RedirectMatch 301 ^/Sportverletzung/Sehnenverletzung/?$    /sportverletzungen.html
+RedirectMatch 301 ^/Sportverletzung/?$                     /sportverletzungen.html
+
+# Therapie (Unterseiten zuerst, dann Hauptseite)
+RedirectMatch 301 ^/Therapie/konservative-Behandlung/?$    /therapieformen.html
+RedirectMatch 301 ^/Therapie/operative-Behandlung/?$       /behandlungsform.html
+RedirectMatch 301 ^/Therapie/?$                            /therapieformen.html
+
+# Ordination (Unterseiten zuerst, dann Hauptseite)
+RedirectMatch 301 ^/Ordination/Versicherungen/?$           /
+RedirectMatch 301 ^/Ordination/Partner/?$                  /
+RedirectMatch 301 ^/Ordination/?$                          /
+
+# Kontakt
+RedirectMatch 301 ^/Kontakt/?$                             /termin.html
+
+# Feedback / Impressum
+RedirectMatch 301 ^/Feedback/Impressum/?$                  /
+RedirectMatch 301 ^/Feedback/?$                            /
+
+# ── 5. Security Headers ───────────────────────────────────────────────────────
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set X-XSS-Protection "1; mode=block"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains" env=HTTPS
+</IfModule>
+
+# ── 6. Browser Caching ────────────────────────────────────────────────────────
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html              "access plus 1 hour"
+  ExpiresByType text/css               "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType image/jpeg             "access plus 6 months"
+  ExpiresByType image/png              "access plus 6 months"
+  ExpiresByType image/webp             "access plus 6 months"
+  ExpiresByType image/gif              "access plus 6 months"
+  ExpiresByType image/svg+xml          "access plus 6 months"
+  ExpiresByType video/mp4              "access plus 6 months"
+  ExpiresByType font/woff2             "access plus 1 year"
+</IfModule>
+
+# ── 7. Komprimierung ─────────────────────────────────────────────────────────
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json
+</IfModule>
+
+# ── 8. Schutz sensibler Dateien ───────────────────────────────────────────────
+<FilesMatch "\.(env|log|sql|bak|config|htpasswd)$">
+  Order Allow,Deny
+  Deny from all
+</FilesMatch>

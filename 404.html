@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de-AT">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" type="image/png" href="favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seite nicht gefunden | OA Dr. Shady El Marto – Kniechirurg Wien</title>
+<meta name="robots" content="noindex, follow">
+<meta http-equiv="refresh" content="8;url=https://www.dr-elmarto.at/">
+<link rel="canonical" href="https://www.dr-elmarto.at/">
+<style>
+  :root{--primary:#1d77a7;--dark:#23282D;--white:#fff;--light:#e1e7f3}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--dark);color:var(--white);min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:2rem}
+  .logo{font-size:1.1rem;font-weight:700;letter-spacing:.08em;color:var(--primary);margin-bottom:3rem;text-decoration:none;text-transform:uppercase}
+  .code{font-size:clamp(5rem,15vw,9rem);font-weight:900;color:var(--primary);opacity:.18;line-height:1;margin-bottom:.5rem}
+  h1{font-size:clamp(1.4rem,3vw,2rem);font-weight:700;margin-bottom:1rem;color:var(--white)}
+  p{color:#c8d2e8;line-height:1.7;max-width:520px;margin:0 auto 1rem}
+  .countdown{color:var(--primary);font-size:.95rem;margin-top:.5rem;font-weight:600}
+  .nav-links{display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center;margin-top:2.5rem}
+  .nav-links a{padding:.55rem 1.3rem;border:1px solid rgba(255,255,255,.25);color:var(--white);text-decoration:none;border-radius:50px;font-size:.88rem;transition:all .2s}
+  .nav-links a:hover{background:var(--primary);border-color:var(--primary)}
+  .btn-home{display:inline-block;padding:.75rem 2rem;background:var(--primary);color:var(--white);text-decoration:none;border-radius:50px;font-weight:600;font-size:1rem;margin-top:2rem;transition:opacity .2s}
+  .btn-home:hover{opacity:.85}
+  @media(max-width:480px){.nav-links{flex-direction:column;align-items:center}}
+</style>
+</head>
+<body>
+
+<a href="https://www.dr-elmarto.at/" class="logo">OA Dr. Shady El Marto — Kniechirurg Wien</a>
+
+<div class="code">404</div>
+<h1>Diese Seite wurde nicht gefunden</h1>
+<p>Die gesuchte Seite existiert nicht oder wurde verschoben. Sie werden automatisch zur Startseite weitergeleitet.</p>
+<p class="countdown" id="countdown">Weiterleitung in <span id="sec">8</span> Sekunden …</p>
+
+<a href="https://www.dr-elmarto.at/" class="btn-home">Zur Startseite →</a>
+
+<div class="nav-links">
+  <a href="https://www.dr-elmarto.at/kniechirurgie.html">Kniechirurgie</a>
+  <a href="https://www.dr-elmarto.at/sportverletzungen.html">Sportverletzungen</a>
+  <a href="https://www.dr-elmarto.at/behandlungsform.html">Arthroskopie</a>
+  <a href="https://www.dr-elmarto.at/therapieformen.html">Therapieformen</a>
+  <a href="https://www.dr-elmarto.at/termin.html">Termin buchen</a>
+</div>
+
+<script>
+var s = 8;
+var el = document.getElementById('sec');
+var iv = setInterval(function(){
+  s--;
+  if(el) el.textContent = s;
+  if(s <= 0){ clearInterval(iv); window.location.href = 'https://www.dr-elmarto.at/'; }
+}, 1000);
+</script>
+
+<!-- Schema.org: diese Seite ist ein WebPage mit Fehler -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Seite nicht gefunden – dr-elmarto.at",
+  "url": "https://www.dr-elmarto.at/404.html",
+  "isPartOf": {"@id": "https://www.dr-elmarto.at/#website"},
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [{"@type":"ListItem","position":1,"name":"Startseite","item":"https://www.dr-elmarto.at/"}]
+  }
+}
+</script>
+
+</body>
+</html>
