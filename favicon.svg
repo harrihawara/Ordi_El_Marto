@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="MS – Matthias Schmid">
+  <rect width="120" height="120" rx="18" fill="#2a241c"/>
+  <g fill="none" stroke="#f7f2e6" stroke-width="2">
+    <circle cx="58" cy="61" r="44" opacity="0.3"/>
+    <circle cx="62" cy="58" r="40" opacity="0.5"/>
+    <circle cx="60" cy="60" r="32"/>
+  </g>
+  <text x="60" y="61" text-anchor="middle" dominant-baseline="central"
+        font-family="'Lato',Helvetica,Arial,sans-serif"
+        font-size="32" font-weight="700" letter-spacing="1" fill="#f7f2e6">MS</text>
+</svg>

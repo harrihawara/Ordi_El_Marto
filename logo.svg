@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">Matthias Schmid – Heil- und medizinischer Masseur</title>
+  <g fill="none" stroke="#2a241c" stroke-width="1.6">
+    <circle cx="58" cy="60" r="45" opacity="0.28"/>
+    <circle cx="61.5" cy="57" r="41" opacity="0.45"/>
+    <circle cx="60" cy="60" r="33"/>
+  </g>
+  <text x="60" y="60" text-anchor="middle" dominant-baseline="central"
+        font-family="'Lato','Poppins',Helvetica,Arial,sans-serif"
+        font-size="32" font-weight="700" letter-spacing="1" fill="#2a241c">MS</text>
+  <text x="130" y="52"
+        font-family="'Lato','Poppins',Helvetica,Arial,sans-serif"
+        font-size="36" font-weight="400" letter-spacing="3.2" fill="#2a241c">MATTHIAS SCHMID</text>
+  <line x1="131" y1="66" x2="452" y2="66" stroke="#2a241c" stroke-width="0.8" opacity="0.35"/>
+  <text x="131" y="88"
+        font-family="'Lato','Poppins',Helvetica,Arial,sans-serif"
+        font-size="14" font-weight="400" letter-spacing="4.4" fill="#5f6146">HEIL- &amp; MED. MASSEUR</text>
+</svg>

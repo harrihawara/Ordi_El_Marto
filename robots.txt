@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap – Domain vor dem Livegang anpassen
+Sitemap: https://www.beispiel-domain.at/sitemap.xml
